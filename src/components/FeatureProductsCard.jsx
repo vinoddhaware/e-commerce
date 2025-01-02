@@ -4,7 +4,7 @@ import FormatePrice from "./FormatePrice";
 
 const FeatureProductsCard = ({ curData }) => {
   return (
-    <NavLink to={`/singleproduct/${curData.id}`}>
+    <NavLink to={`/e-commerce/singleproduct/${curData.id}`}>
       <div className=" relative text-sm sm:text-base">
         <figure>
           <img src={curData.image} alt={curData.name} className="hover:scale-105  duration-300" />

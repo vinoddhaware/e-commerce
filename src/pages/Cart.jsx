@@ -26,7 +26,7 @@ const Cart = () => {
             ?
             <div className='flex  flex-col justify-center items-center space-y-2'>
               <h1 className='text-2xl font-bold mt-6'> Your Shopping bag is empty </h1>
-              <NavLink to={'/products'} className='text-blue-600 underline'>Shop today’s deals &rarr; </NavLink>
+              <NavLink to={'/e-commerce/products'} className='text-blue-600 underline'>Shop today’s deals &rarr; </NavLink>
             </div>
             :
             <div className='space-y-5'>
@@ -36,7 +36,7 @@ const Cart = () => {
                 })
               }
               <div className='flex justify-between items-center border-t border-gray-600/40 py-4 text-[10px] sm:text-sm'>
-                  <NavLink to={'/products'}> <button className='px-2 py-2 sm:px-6 sm:py-4 bg-blue-600 text-white '> CONTINUE SHOPPING </button> </NavLink>
+                  <NavLink to={'/e-commerce/products'}> <button className='px-2 py-2 sm:px-6 sm:py-4 bg-blue-600 text-white '> CONTINUE SHOPPING </button> </NavLink>
                   <button onClick={() => clearCart()} className='px-2 py-2 sm:px-6 sm:py-4 bg-red-600 text-white '> CLAER CART </button>
               </div>
             </div>

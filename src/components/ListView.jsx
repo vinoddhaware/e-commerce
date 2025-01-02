@@ -8,7 +8,7 @@ const ListView = ({products}) => {
             {
                 products.map((curData) => {
                     return(
-                        <NavLink key={curData.id} to={`/singleproduct/${curData.id}`}>
+                        <NavLink key={curData.id} to={`/e-commerce/singleproduct/${curData.id}`}>
                         <div className='grid lg:grid-cols-2 gap-10 p-4 my-6 bg-gray-400/10'>
                             <div className='w-72 mx-auto'>
                                 <figure>

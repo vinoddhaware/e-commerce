@@ -14,35 +14,35 @@ import { CartProvide } from "./context/cartContex"
 function App() {
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: '/e-commerce/',
       element: <AppLayout/>,
       children: [
         {
-          path: '/',
+          path: '/e-commerce/',
           element: <Home />
         },
         {
-          path: '/singleproduct/:id',
+          path: '/e-commerce/singleproduct/:id',
           element: <SingleProduct/>,
         },
         {
-          path: '/about',
+          path: '/e-commerce/about',
           element: <About/>
         },
         {
-          path: '/products',
+          path: '/e-commerce/products',
           element: <Products/>,
         },
         {
-          path: '/contact',
+          path: '/e-commerce/contact',
           element: <Contact />
         },
         {
-          path: '/login',
+          path: '/e-commerce/login',
           element: <Login />
         },
         {
-          path: '/cart',
+          path: '/e-commerce/cart',
           element: <Cart/>
         },
       ]

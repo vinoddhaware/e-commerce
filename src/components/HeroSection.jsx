@@ -10,7 +10,7 @@ const HeroSection = ({data}) => {
             <p> Welcome to </p>
             <h1 className='text-3xl text-black font-bold'> {name} </h1>
             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat, recusandae voluptatum porro reprehenderit sapiente sed obcaecati commodi ab, eveniet totam expedita molestias. Fuga hic iusto labore ipsum aperiam! Doloribus! </p>
-            <NavLink to='/products'>
+            <NavLink to='/e-commerce/products'>
                 <button className='mt-6 text-white px-4 py-2 bg-blue-600/90 rounded-sm'> Shop Now &#8594; </button>
             </NavLink>
         </div>

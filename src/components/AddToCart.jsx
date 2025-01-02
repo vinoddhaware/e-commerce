@@ -31,7 +31,7 @@ const AddToCart = ({singleProduct}) => {
         <button disabled = {addCart >= singleProduct.stock} onClick={() => setAddCart((prev) => prev + 1)}><FaPlus /></button>
     </div>
     <div>
-        <NavLink to={'/cart'} onClick={() => addToCart(singleProduct.id, color, addCart, singleProduct)} >
+        <NavLink to={'/e-commerce/cart'} onClick={() => addToCart(singleProduct.id, color, addCart, singleProduct)} >
             <button className='px-4 py-3 bg-blue-600 text-white/70 hover:text-white text-sm active:scale-95 duration-300'> ADD TO CART </button>
         </NavLink>
     </div>
